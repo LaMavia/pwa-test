@@ -6,7 +6,7 @@ import replace from '@rollup/plugin-replace'
 
 const pwaOptions: Partial<VitePWAOptions> = {
   mode: 'development',
-  base: '/',
+  base: '/pwa-test/dist',
   includeAssets: ['favicon.svg'],
   manifest: {
     name: 'PWA Router',
